@@ -1,0 +1,123 @@
+ body{
+    padding:0;
+    margin:0;
+ }
+          
+ #wrapper{
+    overflow: hidden;
+    background-color: #F6F4F3;
+}
+
+
+/*      헤더      */
+
+#header{
+    position: relative;
+     width: 100%;
+    height: 85px;
+    background-color: #F7AE9E;
+    margin: 0 auto;
+    text-align: right;
+}
+             
+.title{
+     position: absolute;
+     left:50px;
+}
+          
+.login{
+    position: relative;
+    right: 40px;
+    border-style: none;
+    background-color: #F7AE9E;
+    margin: 5px;
+}
+
+#search{
+    border-bottom: 1px solid black;
+}
+
+
+/*      네비게이션       */
+            
+#nav{
+    position: relative;   
+    width:100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    background-color: #F6F4F3;
+    text-align: right;
+}
+          
+.btn{
+    position: relative;
+    right: 40px;
+    width: 100px;
+    margin: 8px;        
+}
+          
+
+/*      메인   */
+          
+#main{
+    position: relative;
+    width: 960px;        
+    background-color: #EBEBEB;
+    margin: 0 auto; 
+}
+          
+#section, #section2{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color:white;
+    margin: 35px;   
+    text-align: center;
+}
+          
+
+#section3, #section4{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 35px;   
+    text-align: center;
+}
+
+#section5{
+    width: 880px;
+    height: 200px;
+    margin: 35px;
+    background-color:white;
+    text-align: center;
+}
+
+
+/*      푸터      */
+         
+#footer{     
+    width: 85%;
+    height: 65px;
+    margin: 0 auto;
+    background-color: #B9BAAD;  
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
