@@ -5,8 +5,10 @@
           
  #wrapper{
     overflow: hidden;
-    background-color: #F6F4F3;
+    background-color: #fdfdfd;
 }
+
+ ul,li{list-style:none;}
 
 
 /*      헤더      */
@@ -15,7 +17,7 @@
     position: relative;
      width: 100%;
     height: 85px;
-    background-color: #F7AE9E;
+    background-color: #9b7f72;
     margin: 0 auto;
     text-align: right;
 }
@@ -23,13 +25,14 @@
 .title{
      position: absolute;
      left:50px;
+    
 }
           
 .login{
     position: relative;
     right: 40px;
     border-style: none;
-    background-color: #F7AE9E;
+    background-color: #9b7f72;
     margin: 5px;
 }
 
@@ -45,7 +48,7 @@
     width:100%;
     height: 40px;
     border-bottom: 1px solid black;
-    background-color: #F6F4F3;
+    background-color: #fdfdfd;
     text-align: right;
 }
           
@@ -100,12 +103,25 @@
     width: 85%;
     height: 65px;
     margin: 0 auto;
-    background-color: #B9BAAD;  
+    background-color: #50403f;  
     text-align: center;
 }
 
+/*  슬라이드    */
 
+ul,li{
+    list-style:none;
+}
 
+.slide{
+    position: relative;
+    left: 270px;
+    width: 100%;
+     height: 320px;
+   
+
+}
+    
 
 
 
