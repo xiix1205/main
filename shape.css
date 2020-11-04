@@ -14,14 +14,16 @@
     position: relative;
      width: 100%;
     height: 85px;
-    background-color: #9b7f72;
+    background-color: #50403f;
     margin: 0 auto;
     text-align: right;
 }
              
 .title{
      position: absolute;
-     left:50px;
+     left:100px;
+    color: antiquewhite;
+    cursor: pointer;
     
 }
           
@@ -29,8 +31,10 @@
     position: relative;
     right: 40px;
     border-style: none;
-    background-color: #9b7f72;
+    background-color: #50403f;
     margin: 5px;
+    color:antiquewhite;
+    cursor: pointer;
 }
 
 #search{
@@ -45,15 +49,26 @@
     width:100%;
     height: 40px;
     border-bottom: 1px solid black;
-    background-color: #fdfdfd;
+    background-color: #EBEBEB;
     text-align: right;
 }
           
 .btn{
     position: relative;
-    right: 40px;
-    width: 100px;
-    margin: 8px;        
+    right: 150px;
+    top:7px;
+    width: 80px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:before{
+    content: "|";
+    padding-right: 15px; 
+}
+
+#nav span:nth-child(1):before{
+    content: "";
 }
           
 
@@ -61,37 +76,28 @@
           
 #main{
     position: relative;
-    width: 960px;        
+    width: 980px;        
     background-color: #EBEBEB;
     margin: 0 auto; 
+    
 }
           
 #section, #section2{
     display: inline-block;
-    width: 400px;
-    height: 300px;
-    background-color:white;
-    margin: 35px;   
-    text-align: center;
+    margin: 30px;
+    
 }
-          
 
-#section3, #section4{
+#section3{
     display: inline-block;
-    width: 400px;
-    height: 200px;
-    background-color: white;
-    margin: 35px;   
-    text-align: center;
+    margin: 30px;
 }
 
-#section5{
-    width: 880px;
-    height: 200px;
-    margin: 35px;
-    background-color:white;
-    text-align: center;
-}
+#section4, #section5{
+    display: inline-block;
+    margin: 30px;
+}  
+
 
 
 /*      푸터      */
@@ -100,7 +106,7 @@
     width: 85%;
     height: 65px;
     margin: 0 auto;
-    background-color: #50403f;  
+    background-color: #d8dcda;  
     text-align: center;
 }
 
@@ -110,10 +116,20 @@ ul,li{
     list-style:none;
 }
 
-.slide{
+#side > ul > li > img{
+    position: absolute;
+    top:-16px;
+    overflow: hidden;
+}
+
+#side{
     position: relative;
-    left: 270px;
-     height: 320px;
+    right: 170px;
+    top:130px;
+    width: 220px;
+    height: 700px;
+    border: 1px solid;
+    float: right;
 }
     
 
