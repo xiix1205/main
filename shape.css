@@ -8,17 +8,25 @@
     background-color: #fdfdfd;
 }
 
+ul,li{
+    list-style:none;
+}
+
 a{
     text-decoration: none;
+    cursor: pointer;
+    color:#333;
 }
 
-a:link{
-    color: black;
-}
 
-a:visited{
-    color: black;
+/*
+a:link, a:visited{
+    color: #646464;
 }
+*/
+
+
+
 
 /*      헤더      */
 
@@ -55,10 +63,11 @@ a:visited{
 }
 
 
+
 /*      네비게이션       */
             
 #nav{
-    position: relative;   
+    position: relative;
     width:100%;
     height: 40px;
     border-bottom: 1px solid black;
@@ -91,6 +100,7 @@ a:visited{
 }
 
 .btn:hover{
+    filter:invert(100%);
     text-decoration: underline;
 }
           
@@ -158,6 +168,11 @@ a:visited{
     
 }
 
+.rank:hover{
+    text-decoration: underline;
+}
+
+
 .rank_wrap{
     width: 5%;
 }
@@ -173,6 +188,7 @@ a:visited{
 
 .page1 li:first-child .rank_list{
     background-color: #c14c3d;
+    border-color:  #c14c3d; 
     color: #fff;
 }
 
@@ -191,7 +207,6 @@ a:visited{
 .main_title{
     line-height: 160%;
     text-decoration: none;
-    color: #3e3a37;
     cursor: pointer;
 }
 
@@ -199,11 +214,13 @@ a:visited{
 #section3{
     width:900px;
     height: 380px;
-    border: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     background-color: whitesmoke;
     display: inline-block;
     margin: 30px;
-    padding: 3px;
+    margin-top:45px;
+    padding: 4px;
 }
 
 .m_banner{
@@ -229,6 +246,9 @@ a:visited{
     padding: 17px 0 30px;
 }
 
+#view2{
+    display: none;
+}
 
 .prev{
     content: url(images/prev.png);
@@ -267,39 +287,65 @@ a:visited{
 
 .m_title{
     overflow: hidden;
-    line-height: 20px;
-    text-overflow: ellipsis;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 .m_rank{
     margin-right: 7px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .m_list{
     display: block;
     overflow: hidden;
     line-height: 20px;
+    font-size: 14px;
 }
 
 .m_dt{
     float: left;
-    margin-right:5px;
+    margin-right:8px;
 }
 
-#section4, #section5{
-     display: inline-block;
-    width: 410px;
-    height: 320px;
-    margin: 20px;
-    margin-bottom: 50px;
-    padding: 15px;
-    border: 1px solid lightgray;
-    background-color:whitesmoke;
+#section4{
+    width:900px;
+    display: inline-block;
+    border-top:2px solid lightgray;
+    margin: 50px 25px 85px; 
+    padding-top: 40px;
 }
 
+
+.news_list > li{
+    position: relative;
+    min-height: 145px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.news_thumb{
+    float: left;
+    margin-right: 20px;
+}
+
+
+.news_text:hover{
+    text-decoration: underline;
+}
+
+.news_title{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.news_content{
+    color: #666;
+    line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 /*      푸터      */
@@ -316,9 +362,7 @@ a:visited{
 
 /*  슬라이드    */
 
-ul,li{
-    list-style:none;
-}
+
 
 #side > ul > li > img{
     position: absolute;
@@ -337,9 +381,6 @@ ul,li{
 }
     
 
-.seoul{
-    margin: 20px;
-}
 
 
 
