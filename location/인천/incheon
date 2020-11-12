@@ -1,0 +1,36 @@
+<table border="1" width="650" align="center" class="theater_list">
+                <thead>
+                    <tr>
+                        <th>극장명</th>
+                        <th>극장위치</th>
+                        <th>연락처</th>
+                        <th>상세위치</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>미림극장</td>
+                        <td>동구</td>
+                        <td>032-764-8880</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>영화공간 주안</td>
+                        <td>미추홀구</td>
+                        <td>032-427-6777</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>CGV 인천 아트하우스</td>
+                        <td>남동구</td>
+                        <td>1544-1112</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                    <tr>
+                        <td>롯데시네마 부평 아르떼클래식</td>
+                        <td>부평구</td>
+                        <td>1544-8855</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                </tbody>
+         </table> 

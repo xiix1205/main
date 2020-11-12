@@ -23,7 +23,7 @@ window.onload = function () {
 }
 
 function main(){
-    window.location = "https://xiix1205.github.io/main/main.html"
+    window.location = "main.html"
 }
 
 function login(){
@@ -46,15 +46,9 @@ function board_3(){
     window.location ="https://kana9648.github.io/Movie/read.html"
 }
 
-function loc(){
-    window.location= "location.html"
-}
-
 function back(){
     history.back()
 }
-
-
 
 
 

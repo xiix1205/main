@@ -1,0 +1,54 @@
+<table border="1" width="650" align="center" class="theater_list">
+                <thead>
+                    <tr>
+                        <th>극장명</th>
+                        <th>극장위치</th>
+                        <th>연락처</th>
+                        <th>상세위치</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CGV 대전 아트하우스</td>
+                        <td>대전광역시</td>
+                        <td>1544-1122</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                    <tr>
+                        <td>대전 아트시네마</td>
+                        <td>대전광역시</td>
+                        <td>042-472-1138</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                    <tr>
+                        <td>옥천군 영상미디어센터</td>
+                        <td>충북 옥천군</td>
+                        <td>043-730-3606</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                    <tr>
+                        <td>제천영상미디어센터 봄</td>
+                        <td>충북 제천시</td>
+                        <td>043-645-4995</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                      <tr>
+                        <td>롯데시네마 청주 아르떼클래식</td>
+                        <td>충북 청주시</td>
+                        <td>1544-8855</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>CGV 천안펜타포트 아트하우스</td>
+                        <td>충남 천안시</td>
+                        <td>1544-1122</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>천안시 영상미디어센터 비채</td>
+                        <td>충남 천안시</td>
+                        <td>041-415-0099</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                </tbody>
+            </table>    

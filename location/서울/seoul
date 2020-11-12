@@ -1,0 +1,110 @@
+       <script>
+$(function(){
+   $("td:first-of-type").css({"background-color":"yellow"});
+    
+}); 
+
+$(function(){
+   $("td:first-of-type").addClass("aqua");
+    
+}); 
+</script>
+
+<table border="1" align="center" width="680" height="700"  class="theater_list">
+                <thead>
+                    <tr>
+                        <td>극장명</td>
+                        <td>극장위치</td>
+                        <td>연락처</td>
+                        <td>상세위치</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>KU 씨네마테크</td>
+                        <td>광진구</td>
+                        <td>02-446-6579</td>
+                        <td><button type="button"><a href="location/서울/seoul_1.html">상세보기</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>롯데시네마 건대입구 아르떼클래식</td>
+                        <td>광진구</td>
+                        <td>1544-8855</td>
+                        <td><button type="button"><a href="location/서울/seoul_2.html">상세보기</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>CGV 강변 아트하우스</td>
+                        <td>광진구</td>
+                        <td>1544-1122</td>
+                        <td><button type="button"><a href="location/서울/seoul_3.html">상세보기</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>CGV 압구정 아트하우스</td>
+                        <td>강남구</td>
+                        <td>1544-1122</td>
+                        <td><button type="button"><a href="location/서울/seoul_4.html">상세보기</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>롯데시네마 월드타워 아르떼클래식</td>
+                        <td>송파구</td>
+                        <td>02-3213-5000</td>
+                        <td><button type="button"><a href="location/서울/seoul_5.html">상세보기</a></button></td>
+                    </tr>
+                        <td>아트나인</td>
+                        <td>동작구</td>
+                        <td>1544-0070</td>
+                        <td><button type="button"><a href="location/서울/seoul_6.html">상세보기</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>아리랑시네센터</td>
+                        <td>성북구</td>
+                        <td>02-3291-5541</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                    <tr>
+                        <td>롯데시네마 신도림 아르떼클래식</td>
+                        <td>구로구</td>
+                        <td>1544-8855</td>
+                        <td><button type="button"><a href="location/서울/seoul_8.html">상세보기</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>CGV 구로 아트하우스</td>
+                        <td>구로구</td>
+                        <td>1544-1122</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                    <tr>
+                        <td>CGV 여의도 아트하우스</td>
+                        <td>영등포구</td>
+                        <td>1544-1122</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>제비극장</td>
+                        <td>마포구</td>
+                        <td>02-325-1969</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>씨 클라우드</td>
+                        <td>마포구</td>
+                        <td>02-323-6646</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>성미산 마을극장</td>
+                        <td>마포구</td>
+                        <td>02-322-0345</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                     <tr>
+                        <td>미디액트</td>
+                        <td>마포구</td>
+                        <td>02-3141-6300</td>
+                        <td><button type="button">상세보기</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+
