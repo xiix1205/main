@@ -1,16 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-      <meta charset="utf-8">
+     <meta charset="utf-8">
 <title>
-main
-</title> 
-<link rel="stylesheet" href="shape.css" type="text/css">
-<link rel="stylesheet" href="common.css" type="text/css">    
-<script src="slide.js"></script> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+ 
+</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/link.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/shape.css">
+<script> 
+  $(function(){
+      $('.post_wrap').bxSlider({
+          auto: true,
+          pause:4000,
+          speed:600,  
+          pager:false
+        
+      });
+  });
+</script>
+</head>
 <body>
-    <div id="wrapper">
+   <div id="wrapper">
         <header id="header">
               <h1 class="title" onclick="main()">MOVIE</h1>
               <button type="button" class="login" onclick="login()">로그인</button>
@@ -18,7 +33,7 @@ main
               <input type="search" id="search" class="login" placeholder="검색어를 입력" onkeyup="">
          </header>
               <nav id="nav">
-                  <span class="btn" onclick="board_1()">영화</span>
+<!--                  <span class="btn" onclick="board_1()">영화</span>-->
                   <span class="btn" onclick="board_2()">리뷰</span>
                   <span class="btn" onclick="board_3()">읽을거리</span>
                   <span class="btn" onclick="loc()">극장</span> 
@@ -97,12 +112,16 @@ main
                   
                   <section id="section3">
                       <h4 class = "m_banner"><article>현재상영작</article></h4>
+                    
                     <div class="post_wrap">
                       <div class="post_view">
+                          
+<!--
                         <div class="post_nav">  
                         <a class="prev" onclick="plusSlides(-1)">Prev</a>
                         <a class="next" onclick="plusSlides(+1)">Next</a>
                         </div>    
+-->
                       <a href="#" class="post_area">
                         <div class="post_thumb"> 
                         <img src="images/poster_1.jfif" alt="도굴" width="150" height="200">
@@ -115,7 +134,7 @@ main
                             </dl>
                         </div>  
                       </a>
-                      <a href="#" class="post_area">
+             <a href="http://kimhappy93.dothome.co.kr/movie_detail.html" class="post_area">
                         <div class="post_thumb"> 
                         <img src="images/poster_2.jfif" alt="삼진그룹" width="150" height="200">
                         </div>
@@ -163,12 +182,17 @@ main
                             </dl>
                         </div>  
                       </a>
-                    </div>      
-                     <div class="post_view" id="view2">
+                         
+                        </div> 
+                        
+                     <div class="post_view">
+                         
+<!--
                          <div class="post_nav">  
                         <a class="prev" onclick="plusSlides(-1)">Prev</a>
                         <a class="next" onclick="plusSlides(+1)">Next</a>
                         </div>   
+-->
                       <a href="#" class="post_area">
                         <div class="post_thumb"> 
                         <img src="images/poster_6.jfif" alt="위플래쉬" width="150" height="200">
@@ -229,14 +253,16 @@ main
                             </dl>
                         </div>  
                       </a>
+                         
                     </div>        
-                </div>   
+                        </div>
+                               
                   </section>
                   <section id="section4">
                     <div id="news">
                       <ul class="news_list">
                         <li>
-                            <a href="https://kana9648.github.io/Movie/read3.html">
+                            <a href="https://kana9648.github.io/Movie/news/news3.html">
                                 <img src="images/news1.jpg" class="news_thumb">
                                 <div class="news_text">
                                 <p class="news_title">
@@ -249,7 +275,7 @@ main
                             </a>  
                         </li>
                         <li>
-                          <a href="https://kana9648.github.io/Movie/read4.html">
+                          <a href="https://kana9648.github.io/Movie/news/news4.html">
                             <img src="images/news2.jpg" class="news_thumb">
                             <div class="news_text">  
                             <p class="news_title">전지현을 주인공으로 한 킹덤의 스페셜 에피소드가 공개된다</p> 
@@ -259,7 +285,7 @@ main
                           </a>
                         </li>  
                         <li>
-                          <a href="https://kana9648.github.io/Movie/read7.html">
+                          <a href="https://kana9648.github.io/Movie/news/news7.html">
                             <img src="images/news3.jpg" class="news_thumb">
                             <div class="news_text">  
                             <p class="news_title">드니 빌뇌브 감독과 제이크 질렌홀이 요 네스뵈의 소설 아들을 'HBO'에서 시리즈물로 함께 만든다 外</p> 
@@ -283,16 +309,8 @@ main
           </div>
       
       </body>
-  </head>
-</html>
-
-
-
-
-
-
-
-
+  
+</html> 
 
 
 
