@@ -20,10 +20,10 @@ main
               <input type="search" id="search" class="login" placeholder="검색어를 입력" onkeyup="">
          </header>
               <nav id="nav">
-                  <span class="btn" onclick="board_1()">영화</span>
+<!--                  <span class="btn" onclick="board_1()">영화</span>-->
                   <span class="btn" onclick="board_2()">리뷰</span>
                   <span class="btn" onclick="board_3()">읽을거리</span>
-                  <span class="btn">극장</span>
+                  <span class="btn" onclick="loc()">극장</span>
               </nav>
        <div id="main">
            <h1 id="theater"><div>Theater</div></h1>
@@ -32,13 +32,13 @@ main
             <tr>
                 <td colspan="4" align="center">상영관 지역</td>   
             </tr>
-               <tr align="center" bgcolor="white" class="big_loc">
+               <tr align="center" bgcolor="white" class="loc_name">
                 <td onclick="fetchPage('seoul')">서울</td>
                 <td onclick="fetchPage('gyeonggi')">경기</td>
                 <td onclick="fetchPage('incheon')">인천</td>
                 <td onclick="fetchPage('jeju')">제주</td>   
                </tr>
-               <tr align="center" bgcolor="white" class="big_loc">
+               <tr align="center" bgcolor="white" class="loc_name">
                 <td onclick="fetchPage('gangwon')">강원도</td>
                 <td onclick="fetchPage('chungc')">충청도</td> 
                 <td onclick="fetchPage('jeonlado')">전라도</td>  
@@ -65,7 +65,7 @@ main
                 </tr>
                 <tr>
                     <td>기타</td>
-                    <td>스타시티몰 위치</td>
+                    <td></td>
                 </tr>
                </table>
                <p class="info_list" onclick="back()">목록으로</p> 

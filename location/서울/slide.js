@@ -23,15 +23,15 @@ window.onload = function () {
 }
 
 function main(){
-    window.location = "main.html"
+    window.location = "https://xiix1205.github.io/main/main.html"
 }
 
 function login(){
-    window.location= "https://kana9648.github.io/Movie/login.html"
+    window.location= "https://kana9648.github.io/Movie/login/login.html"
 }
 
 function join(){
-    window.location = "https://kana9648.github.io/Movie/in.html"
+    window.location = "https://kana9648.github.io/Movie/sign/sign.html"
 }
 
 function board_1(){
@@ -39,11 +39,15 @@ function board_1(){
 }
 
 function board_2(){
-    window.location = "http://ieouy0605.dothome.co.kr/subpage/subpage/board.html"
+    window.location = "http://ieouy0605.dothome.co.kr/subpage/boardlist.html"
 }
 
 function board_3(){
-    window.location ="https://kana9648.github.io/Movie/read.html"
+    window.location ="https://kana9648.github.io/Movie/news/newsmain.html"
+}
+
+function loc(){
+    window.location= "https://xiix1205.github.io/main/location.html"
 }
 
 function back(){
