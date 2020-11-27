@@ -10,9 +10,9 @@ function join(){
     window.location = "https://kana9648.github.io/Movie/sign/sign.html"
 }
 
-//function board_1(){
-//    window.location = "http://haha922.dothome.co.kr/movie_html.html"
-//}
+function board_1(){
+    window.location = "http://kimhappy93.dothome.co.kr/movie_list.html"
+}
 
 function board_2(){
     window.location = "http://ieouy0605.dothome.co.kr/subpage/boardlist.html"
