@@ -71,7 +71,7 @@ a:link, a:visited{
     width:100%;
     height: 40px;
     border-bottom: 1px solid black;
-    background-color: #EBEBEB;
+    background-color:#EBEBEB;
     text-align: right;
 }
           
@@ -110,8 +110,7 @@ a:link, a:visited{
     position: relative;
     width: 980px;        
     background-color: #EBEBEB;
-    margin: 0 auto; 
-    
+    margin: 0 auto;
 }
 
 #section, #section2{
@@ -134,6 +133,20 @@ a:link, a:visited{
     font-size: 13px;
     letter-spacing: 1px;
     background-color: white;
+}
+
+.w_plus{
+    display: inline-block;
+    position: relative;
+    left: 250px;
+    bottom: 17px;
+    color:slategray;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.w_plus:hover{
+    filter: invert(100%);
 }
 
 .w_content{
@@ -307,7 +320,7 @@ a:link, a:visited{
     display: inline-block;
     border-top:2px solid lightgray;
     margin: 50px 25px 85px; 
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 
@@ -341,6 +354,20 @@ a:link, a:visited{
     text-overflow: ellipsis;
 }
 
+.news_plus{
+    text-align: center;
+    padding: 10px;
+}
+
+.news_plus a{
+    color: slategray;
+    font-size: 13px;
+    text-decoration: underline;
+    letter-spacing: 1px; 
+}
+
+
+
 
 /*      푸터      */
          
@@ -351,7 +378,11 @@ a:link, a:visited{
     background-color: #d8dcda;  
     text-align: center;
     color:darkslateblue;
+    font-size: 12px;
+    line-height: 10px;
 }
+
+
 
 
 /*  사이드슬라이드    */
